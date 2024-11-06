@@ -12,7 +12,8 @@ import {NgxFloatUiArticleTypes, NgxFloatUiArticleTypesRef} from "../../shared/ng
 //
 import pkg from "../../../../../../package.json";
 import {highlightElement} from "prismjs";
-import {catchError, of, switchMap, timer} from "rxjs";
+import {of, timer} from "rxjs";
+import { catchError, switchMap } from "rxjs/operators";
 import {ajax, AjaxResponse} from "rxjs/ajax";
 import TypeWriter from "typewriter-effect/dist/core.js";
 

@@ -54,7 +54,7 @@
         "@angular/platform-browser": "^15.0.0",
         "@angular/platform-browser-dynamic": "^15.0.0",
         "@floating-ui/dom": "^1.5.4",
-        "rxjs": "^7.4.0",
+        "rxjs": "6.6.0",
         "tslib": "^2.3.1",
         "typewriter-effect": "^2.19.0",
         "zone.js": "^0.14.0"

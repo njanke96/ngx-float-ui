@@ -25,7 +25,8 @@ import {
     Placement,
     shift
 } from "@floating-ui/dom";
-import {fromEvent, Subject, takeUntil} from "rxjs";
+import {fromEvent, Subject } from "rxjs";
+import { takeUntil } from "rxjs/operators";
 //
 import {NgxFloatUiOptions} from "../../models/ngx-float-ui-options.model";
 import {NgxFloatUiPlacements} from "../../models/ngx-float-ui-placements.model";
